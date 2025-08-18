@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Semana 9 · Material de Clase (SQL)</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; line-height: 1.55; }
+  h1 { font-size: 1.9rem; margin-bottom: .2rem; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .card { border:1px solid #ddd; border-radius:.6rem; padding:1rem; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+  code, pre { background:#f7f7f7; border-radius:.4rem; padding:.15rem .35rem; }
+  pre { padding:.75rem; overflow:auto; }
+  a.button { display:inline-block; margin-top:.6rem; padding:.5rem .8rem; border-radius:.45rem; border:1px solid #ccc; text-decoration:none; }
+</style>
+</head>
+<body>
+<h1>Semana 9 · Material de Clase (Consultas simples y complejas en SQL)</h1>
+<p>Descarga directa de los archivos de práctica. Puedes abrir esta página en clase y pedir a los estudiantes que hagan clic en el archivo correspondiente a su herramienta.</p>
+
+<div class="grid">
+  <section class="card">
+    <h3>MySQL / XAMPP (phpMyAdmin)</h3>
+    <p>Importa este script en la base <code>semana9_demo</code> desde la pestaña <em>Importar</em> de phpMyAdmin.</p>
+    <a class="button" href="semana9_demo_mysql.sql" download>Descargar: semana9_demo_mysql.sql</a>
+    <pre><code>SELECT VERSION() AS mysql_version;
+SELECT COUNT(*) AS clientes FROM clientes;</code></pre>
+  </section>
+
+  <section class="card">
+    <h3>SQLite / DBeaver</h3>
+    <p>Abre el archivo como conexión SQLite en DBeaver.</p>
+    <a class="button" href="semana9_demo.sqlite" download>Descargar: semana9_demo.sqlite</a>
+    <pre><code>SELECT sqlite_version() AS sqlite_version;
+SELECT COUNT(*) AS clientes FROM clientes;</code></pre>
+  </section>
+
+  <section class="card">
+    <h3>Guías</h3>
+    <a class="button" href="Semana9_Guia_Instalacion_XAMPP_DBeaver.pdf" target="_blank">Abrir guía (PDF)</a><br/>
+    <a class="button" href="LEEME_Semana9.txt" download>Descargar README</a>
+    <p style="margin-top:.5rem; font-size:.95rem; color:#444;">Si prefieres usar Google Drive, comparte el enlace del folder como respaldo.</p>
+  </section>
+</div>
+
+</body>
+</html>

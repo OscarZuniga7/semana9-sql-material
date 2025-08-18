@@ -1,0 +1,10 @@
+Semana 9 - Material de práctica SQL
+----------------------------------
+Archivos:
+1) semana9_demo_mysql.sql   -> Para importar en phpMyAdmin (XAMPP).
+2) semana9_demo.sqlite      -> Para abrir en DBeaver (SQLite).
+
+Recomendación:
+- Mantener ambos archivos en una carpeta local antes de importarlos/abrirlos.
+- En XAMPP/phpMyAdmin: crear base 'semana9_demo' y luego Importar el .sql.
+- En DBeaver: New Connection -> SQLite -> elegir el archivo .sqlite.
